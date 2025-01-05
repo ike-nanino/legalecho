@@ -32,7 +32,7 @@ export default function ContactSection() {
     setIsSubmitting(true);
   
     try {
-      const response = await fetch('/api/contacts', {  // Adjusted to match app directory
+      const response = await fetch('/api/contact', {  // Adjusted to match app directory
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -86,7 +86,7 @@ export default function ContactSection() {
                 <Input name="phone" value={formData.phone} onChange={handleChange} type='text' placeholder='Phone Number' />
               </div>
 
-              <Textarea name="message" value={formData.message} onChange={handleChange} className='h-[200px]' placeholder='Type your message here' required />
+              <Textarea name="message" value={formData.message} onChange={handleChange} className='h-[200px] text-white' placeholder='Type your message here' required />
 
               <Button type='submit' className='max-w-32' disabled={isSubmitting}>
                 {isSubmitting ? 'Sending...' : 'Send Message'}

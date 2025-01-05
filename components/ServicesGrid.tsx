@@ -26,8 +26,7 @@ const ServicesGrid = () => {
         transition: "background-image 0.7s ease-in-out",
       }}
     >
-      {/* Overlay on Background */}
-      {/* <div className="absolute inset-0 bg-black/30"></div> */}
+    
 
       {/* Grid Section */}
       <div 

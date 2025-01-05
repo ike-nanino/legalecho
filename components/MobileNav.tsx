@@ -48,7 +48,7 @@ function MobileNav() {
           className="flex justify-center items-center"
           onClick={() => setIsOpen(!isOpen)}
         >
-            <FontAwesomeIcon icon={faBars} className="text-2xl font-bold text-gold" />
+            <FontAwesomeIcon icon={faBars} className="text-base font-semibold text-grey-400" />
           
         </button>
       </SheetTrigger>

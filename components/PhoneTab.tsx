@@ -26,7 +26,7 @@ function PhoneTab() {
           className="flex justify-center items-center"
           onClick={() => setIsOpen(!isOpen)}
         >
-            <FontAwesomeIcon icon={faPhone} className="text-2xl font-bold text-gold" />
+            <FontAwesomeIcon icon={faPhone} className="text-base font-semibold text-grey-400" />
           
         </button>
       </SheetTrigger>
@@ -38,7 +38,7 @@ function PhoneTab() {
           
         </SheetTitle>
 
-        <div className="flex flex-col justify-center items-center mt-15 gap-8 " onClick={handleLinkClick}>
+        <div className="flex flex-col justify-center items-center mt-15 gap-8 text-gold font-semibold " onClick={handleLinkClick}>
         <a href="tel:+233504375771">+233 504 375 771</a>
         <a href="tel:+233504375771">+233 504 375 771</a>
         </div>

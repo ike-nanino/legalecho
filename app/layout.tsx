@@ -7,7 +7,7 @@ import Header from "@/components/Header";
 
 
 export const metadata: Metadata = {
-  title: "Legal Echo",
+  title: "Legal Echo - Legal Practitioners",
   description: "We are ranked as a tier 1/top tier law firm in Ghana by The Legal 500 in the following practice areas: Banking, Finance, M&A, Commercial, Corporate, Energy",
 };
 

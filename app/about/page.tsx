@@ -12,12 +12,12 @@ function AboutUs() {
     {
       objectives: "Vision",
       details:
-        "“we Aim To Be The Standard Of Excellence And Reliability In Every Field Of The Law In Ghana And Beyond”",
+        "“We aim to be the standard of excellence And reliability in every field of the law in Ghana and beyond”",
     },
     {
       objectives: "Mission",
       details:
-        "At Eisen & Co., we deliver premier legal services to our clients. Our experienced and passionate team of lawyers work hard to provide highly skilled, effective and innovative legal counsel and strategic advice. We empower our clients by understanding their objectives and meeting or exceeding their expectations in the best possible way.",
+        "At Legal Echo, we deliver premier legal services to our clients. Our experienced and passionate team of lawyers work hard to provide highly skilled, effective and innovative legal counsel and strategic advice. We empower our clients by understanding their objectives and meeting or exceeding their expectations in the best possible way.",
     },
     {
       objectives: "Core Values",
@@ -42,7 +42,7 @@ function AboutUs() {
               Who we are
             </h1>
             <h1 className="text-xl lg:text-4xl font-normal font-trajanPro mb-4">
-              Eisen & Co., is one of <br />
+              Legal Echo, is one of <br />
               the leading law firms in Ghana.
             </h1>
             <p className="text-xs mb-8 font-nespresso">

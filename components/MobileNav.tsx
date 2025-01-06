@@ -12,7 +12,7 @@ config.autoAddCss = false;
 
 const links = [
     {
-        name: 'H0ME',
+        name: 'HOME',
         path: '/',
     },
     {

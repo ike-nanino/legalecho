@@ -1,4 +1,5 @@
 import ContactSection from "@/components/ContactSection";
+import GoogleMapComponent from "@/components/GoogleMapComponent";
 import React from "react";
 
 function Contact() {
@@ -23,6 +24,10 @@ function Contact() {
       </section>
 
       <ContactSection />
+
+      {/* <div className="my-6">
+        <GoogleMapComponent />
+      </div> */}
     </main>
   );
 }

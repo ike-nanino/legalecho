@@ -3,8 +3,8 @@ import ServicesGrid from "./ServicesGrid";
 
 function Services() {
   return (
-    <section className="">
-      <div className="flex flex-col justify-center items-center mb-10">
+    <section className="bg-white">
+      <div className="flex flex-col justify-center items-center py-10">
         <div className="px-4 text-center w-full md:max-w-[600px]">
           <h1 className="mb-8 font-semibold text-sm text-gold">
             Practice Areas

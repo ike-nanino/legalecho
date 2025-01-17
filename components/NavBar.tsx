@@ -45,6 +45,7 @@ function NavBar() {
             key={index} 
             href={link.path}
             className={`${link.path === pathname && 'text-gold font-trajanPro font-regular text-sm'} capitalize hover:text-gold font-trajanPro text-xs ease-in duration-500`}
+            prefetch={true}
             >{link.name}</Link>
         )
   

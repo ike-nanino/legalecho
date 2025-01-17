@@ -37,7 +37,7 @@ const TeamSection = () => {
   }, []);
 
   return (
-    <div className="flex flex-col lg:flex-row items-center justify-between h-screen my-12">
+    <div className="flex flex-col lg:flex-row items-center justify-between h-screen py-12 bg-white">
       {/* Carousel Section */}
       <div className="relative w-full lg:w-1/2 h-1/2 lg:h-full flex flex-col items-center justify-center">
         <div className="relative w-full h-3/4 overflow-hidden">

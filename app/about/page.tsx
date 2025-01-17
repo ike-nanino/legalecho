@@ -57,12 +57,12 @@ function AboutUs() {
         </div>
       </section>
 
-      <section className="flex flex-col md:flex-row items-center mt-10 lg:mt-0 gap-8 lg:gap-0">
+      <section className="flex flex-col md:flex-row items-center mt-10 lg:mt-0 gap-8 lg:gap-0 bg-white">
         {/* Image Section */}
         <div className="flex-shrink-0 w-full md:w-1/2 relative h-[600px]">
           <Image
             src="/assets/images/attorney02.jpg"
-            alt="Tailored Protection"
+            alt="Lawyers"
             className="object-cover"
             fill
           />

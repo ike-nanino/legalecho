@@ -3,7 +3,7 @@ import React from 'react'
 
 function AboutUs() {
   return (
-    <section className='bg-gray-300 flex flex-col justify-center items-center my-20 py-10'>
+    <section className='bg-gray-300 flex flex-col justify-center items-center py-28'>
 
         <div className='px-4 text-center w-full md:max-w-[500px] relative'>
           <div className='absolute inset-0 left-8 bottom-24 -top-5 right-[230px] lg:-top-5 lg:right-[320px] lg:bottom-10 md:-left-8 '>

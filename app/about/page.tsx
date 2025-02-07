@@ -57,7 +57,7 @@ function AboutUs() {
         </div>
       </section>
 
-      <section className="flex flex-col md:flex-row items-center mt-10 lg:mt-0 gap-8 lg:gap-0 bg-white">
+      <section className="flex flex-col md:flex-row items-center pt-10 lg:pt-0 gap-8 lg:gap-0 bg-white">
         {/* Image Section */}
         <div className="flex-shrink-0 w-full md:w-1/2 relative h-[600px]">
           <Image

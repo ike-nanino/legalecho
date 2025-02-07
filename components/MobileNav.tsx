@@ -54,10 +54,10 @@ function MobileNav() {
       </SheetTrigger>
       <SheetContent
         side="left"
-        className="flex flex-col  border-none shadow-none w-screen h-screen"
+        className="flex flex-col bg-white border-none shadow-none w-[280px] h-screen"
       >
         <SheetTitle className="sr-only">
-          IBV
+          Legal Echo
         </SheetTitle>
 
         <nav className="flex flex-col justify-center items-center gap-8">

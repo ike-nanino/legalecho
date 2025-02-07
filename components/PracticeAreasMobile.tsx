@@ -110,7 +110,7 @@ function PracticeAreasMobile() {
 
 
   return (
-    <section className="w-full">
+    <section className="w-full bg-white">
           <div className="max-w-3xl mx-auto space-y-4 px-8">
           {practiceAreas.map((practice, index) => (
             <div key={index} className="border border-gray-300 rounded-sm py-5">

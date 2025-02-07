@@ -30,7 +30,7 @@ function Practice() {
         <PracticeAreas />
       </div>
 
-      <div className="lg:hidden py-12">
+      <div className="lg:hidden bg-white py-12">
         <PracticeAreasMobile />
       </div>
     </main>

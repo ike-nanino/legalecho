@@ -62,14 +62,14 @@ const TeamSection = () => {
         </div>
 
         {/* Team Member Name */}
-        <div className="mt-4">
+        <div className="pt-4">
           <h3 className="text-xl font-semibold text-gray-800">
             {carouselImages[currentImage].name}
           </h3>
         </div>
 
         {/* Navigation Buttons */}
-        <div className="flex mt-4 gap-4">
+        <div className="flex py-4 gap-4">
           <button
             onClick={handlePrev}
             className="px-4 py-2 bg-gold text-white rounded hover:bg-gold transition"

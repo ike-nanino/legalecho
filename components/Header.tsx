@@ -6,7 +6,7 @@ import PhoneTab from "./PhoneTab";
 
 function Header() {
   return (
-    <header className="bg-dark text-white p-4 sticky top-0 left-0 right-0 z-50">
+    <header className="bg-dark text-white p-4 sticky top-0 left-0 right-0 z-50 h-16 lg:h-20">
       <div className="lg:hidden flex items-center justify-between">
         <MobileNav />
 
